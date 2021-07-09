@@ -12,48 +12,49 @@ warnings.filterwarnings('ignore')
 # connection to the client
 client = MongoClient('localhost',27017)
 
-# to find one
+# Mongodb commands
+1 find_one()
 info_data.find_one()
 
 find_one() method returns the first occurence in the selection
 
-# to find all
+2 find_all()
 for i in info_data.find():
     print(i)
     
 find() method returns all occurence in the selection
 
-# limit()
+3 limit()
 for i in info_data.find().limit(5):
     print(i)
     
 limit() method takes one parameter, a number defining how many documents to return
 
-# to insert one record
+4 insert_one() 
 info_data.insert_one(record)
 
-# to insert many
+5 to insert_many()
 info_data.insert_many(manyRecords)
 
-# to update one
+6 to update_one()
 info_data.update_one(myquery,newValues)
 
-# to delete one 
+7 to delete_one() 
 info_data.delete_one(record)
 
-# to update many
+8 to update_many()
 info_data.update_many({'meal_ids': 1}, {'$inc': {'meals_ids': 3}})
 
-# to delete many
+9 to delete_many()
 info_data.delete_many(myquery)
 
-# to count the records
+10 to count() the records
 count = info_data.find().count()
 print(count)
 
-# to sort the records
+11 to sort() the records
 info_data.find().sort("_id",0)
 
-# to drop
+12 to drop()
 info_data.drop()
 
