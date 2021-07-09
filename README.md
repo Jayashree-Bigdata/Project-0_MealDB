@@ -1,7 +1,7 @@
 # Project-0_MealDB
 
 # Use MongoDB for NoSQL
-1. Meal database actually contains the different types country foods
+1. Meal database actually contains the different types of country foods
 2. Meal database-(MongoDB, python)
 
 # import required modules
