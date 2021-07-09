@@ -1,6 +1,6 @@
 # Project-0_MealDB
 
-# Use MongoDB for NoSQL and to write the commands use python language
+# Use MongoDB for NoSQL
 1. Meal database actually contains the different types country foods
 2. Meal database-(MongoDB, python)
 
