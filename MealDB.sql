@@ -31,7 +31,7 @@ SELECT * FROM MealDB;
 
 -- Drop a table
 
-Drop MealDB;
+Drop table MealDB;
 
 -- Sort in order
 SELECT * FROM MealDB ORDER BY Pizza DESC;
