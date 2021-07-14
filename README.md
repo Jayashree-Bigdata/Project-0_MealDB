@@ -58,3 +58,15 @@ info_data.find().sort("_id",0)
 # to drop()
 info_data.drop()
 
+# meal database using mysql
+we are going to use the mysql workbench to create the meal database 
+
+# commands which used
+Create
+Insert
+Delete
+Select
+Alter
+Update
+
+
